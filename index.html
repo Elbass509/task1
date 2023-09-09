@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>STAGE 1: PERSONAL WEBPAGE TASK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-brand">
+            <button class="toggler"><img src="20230908_034724.png" alt="menu"></button>
+             <p data-testid="slackUserName">
+                PRO-CODE
+             </p>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#">About</a>
+                </li>
+                <li class="nav-item nav-button" data-testid="githubURL">
+                    <a href="#">Source code</a>
+                </li>
+            </ul>
+        </nav>  
+        <main>
+            <div class="right-container">
+                <div class="text">
+                    <h2>HNGx  <span class="web">Web</span></h2>
+                <h2 class="web">
+                 Development <span class="black">Bootcamp</span>
+                </h2>
+                <h2 data-testid="myTrack">
+                    FrontEnd Track
+                </h2>
+                </div>
+                <div class="box-container">
+                    <div class="box box1">
+                        <img src="pngwing.com (8).png" alt="html">
+                    </div>
+                    <div class="box box2">
+                        <img src="pngwing.com (7).png" alt="css">
+                    </div>
+                    <div class="box box3">
+                        <img src="pngwing.com (6).png" alt="js">
+                    </div>
+                </div>
+                <button class="github"><a href="#" data-testid=“githubURL”>GitHub Source Code</a></button>
+                <div class="calender">
+                    <p class="info">
+                        Currently ongoing
+                    </p>
+                    <div class="date-and-time" data-testid="currentDayOfTheWeek">
+                        <div class="day-month">
+                            <p class="month"></p>
+                            <h2 class="day"></h2>
+                            <p class="year"></p>
+                        </div>
+                        <span class="time" data-testid="currentUTCTime"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="image-box" data-testid="slackDisplayImage">
+                <img src="handsome-male-freelancer-glasses-smiling-ecstatic-african-student-holding-laptop-expressing-happiness_197531-20166-transformed.png" alt="pro-Code">
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
